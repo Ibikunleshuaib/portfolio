@@ -1,5 +1,18 @@
+
+$(document).ready(function()
+{
+    $('contact1').click(function() {
+      $('html, body').animate({scrollTop: $('.contact-section').offset().top}, 1000);
+    });
+});
+
 (function ($)
   { "use strict"
+
+      
+
+     
+
   
 /* 1. Proloder */
     $(window).on('load', function () {
