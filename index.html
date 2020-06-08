@@ -22,7 +22,11 @@
 	<link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
 </head>
+
 
 <body>
 <!--? Preloader Start -->
@@ -88,7 +92,7 @@
                                 <h1 data-animation="fadeInUp" data-delay=".6s" >Frontend Developer </h1>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
-                                    <a href="#" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Contact</a>
+                                    <a href="#" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">View Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +113,7 @@
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Frontend Developer</h1>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
-                                    <a href="#" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Contact</a>
+                                    <a href="#" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">View Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -128,23 +132,74 @@
     
     
     <section class="about-area about1 section-padding30" style="padding-top:20px; padding-bottom: 20px">
-        <div class="container" style="text-align: center;">
+        <div class="container" style="text-align: center;" data-aos="fade-left">
             <h3>About Me</h3>
-            <p style="color:white">I'm a front end focused web developer but with fullstack experience.  I build websites and web applications using modern web development technologies. I'm a web developer with 2 years of experience. As a tenacious self-taught programmer, I use continuous iteration to produce results quickly and continuously improve products.</p>
+            <p style="color:white">I'm a web developer with 2 years of experience. I'm front end focused but with fullstack experience.  I build websites and web applications using modern web development technologies. As a tenacious self-taught programmer, I use continuous iteration to produce results quickly and continuously improve products.</p>
         </div>    
     </section>
     <!-- Services Area End -->
+
+
+     <!--? Brand Area Start -->
+     <section class="brand-area pb-bottom section-padding30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-up">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-laptop" aria-hidden="true" style="color:white; font-size: 40px; align-content: center"></i>
+                        <p style="color: #f04e3c;">FRONT END</p>
+                        <p>HTML5</p>
+                        <p>CSS3 | SASS</p>
+                        <p>Bootstrap | Material UI</p>
+                        <p>JavaScript</p>
+                        <p>React | Redux</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-down">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-share-alt" aria-hidden="true" style="color:white; font-size: 40px;"></i>
+                        <p style="color: #f04e3c;">SERVER</p>
+                        <p>NodeJS</p>
+                        <p>Express</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-up">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-database" aria-hidden="true" style="color:white; font-size: 40px; align-content: center"></i>
+                            <p style="color: #f04e3c;">DATABASE</p>
+                            <p>mySQL</p>
+                            <p>MongoDB</p>
+                            <p>Firebase</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-down">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-cloud" aria-hidden="true" style="color:white; font-size: 40px;"></i>
+                        <div class="techList">
+                            <p style="color: #f04e3c;">DEPLOYMENT</p>
+                            <p>Netlify</p>
+                            <p>Heroku</p>
+                            <p>Git</p>
+                            <p>AWS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
     <!--? Blog Ara Start -->
     <section class="home-blog-area section-padding30">
         <div class="container">
             <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-30">
-                        <h2>Portfolio</h2>
+                    <div class="section-tittle text-center mb-30" data-aos="fade-left">
+                        <h2>Project Portfolio</h2>
                         <p>Coporate and Business Websites</p>
                     </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" >
-                    <div class="single-team mb-30"> 
+                    <div class="single-team mb-30" data-aos="fade-up"> 
                         <div class="team-img">
                             <a href="https://www.virtech.com.ng" target="_blank">
                             <img src="assets/img/gallery/p1.png" alt="Portfolio1">
@@ -152,12 +207,12 @@
                         </div>
                         <div class="team-caption">
                             <h3><a href="https://www.virtech.com.ng" target="_blank">www.virtech.com.ng</a></h3>
-                            <p>A stunning website I developed for Virtech. Virtech is a tech company I founded and it represents my brand.</p>
+                            <p>A stunning website I developed for my freelancing business. Virtech represents my brand.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
                             <a href="https://www.analyse.ng" target="_blank">
                             <img src="assets/img/gallery/p2.png" alt="Portfolio2">
@@ -170,7 +225,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up"> 
                         <div class="team-img">
                             <a href="https://www.tristartpaint.com" target="_blank">
                             <img src="assets/img/gallery/p3.png" alt="Portfolio3">
@@ -195,7 +250,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
                             <a href="https://www.tccnaija.com" target="_blank">
                                  <img src="assets/img/gallery/p4.png" alt="Portfolio4">
@@ -208,7 +263,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
                             <a href="https://www.autosolution.ng" target="_blank">
                                 <img src="assets/img/gallery/p5.png" alt="Portfolio5">
@@ -221,7 +276,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
                             <a href="https://ibikunleshuaib.github.io/lanish/index.html" target="_blank">
                                 <img src="assets/img/gallery/p6.png" alt="Portfolio6">
@@ -242,12 +297,12 @@
     <section class="home-blog-area section-padding30" style="padding-top:5px;">
         <div class="container">
             <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-30">
+                    <div class="section-tittle text-center mb-30" data-aos="fade-left">
                         <h2>Web Applications</h2>
                     </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" >
-                    <div class="single-team mb-30"> 
+                    <div class="single-team mb-30" data-aos="fade-up"> 
                         <div class="team-img">
                             <a href="https://chatappbyshuaib.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p7.png" alt="Portfolio7">
@@ -260,7 +315,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
                             <a href="https://text-reader-by-shuaib.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p8.png" alt="Portfolio8">
@@ -273,7 +328,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
                             <a href="https://relaxer-app-by-shuaib.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p9.png" alt="Portfolio9">
@@ -289,53 +344,6 @@
         </div>
     </section>
 
-     <!--? Brand Area Start -->
-     <section class="brand-area pb-bottom section-padding30">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-brand text-center mb-30">
-                        <i class="fa fa-laptop" aria-hidden="true" style="color:white; font-size: 40px; align-content: center"></i>
-                        <p style="color: #f04e3c;">FRONT END</p>
-                        <p>HTML5</p>
-                        <p>CSS3 | SASS</p>
-                        <p>Bootstrap | Material UI</p>
-                        <p>JavaScript</p>
-                        <p>React | Redux</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-brand text-center mb-30">
-                        <i class="fa fa-share-alt" aria-hidden="true" style="color:white; font-size: 40px;"></i>
-                        <p style="color: #f04e3c;">SERVER</p>
-                        <p>NodeJS</p>
-                        <p>Express</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-brand text-center mb-30">
-                        <i class="fa fa-database" aria-hidden="true" style="color:white; font-size: 40px; align-content: center"></i>
-                            <p style="color: #f04e3c;">DATABASE</p>
-                            <p>mySQL</p>
-                            <p>MongoDB</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="single-brand text-center mb-30">
-                        <i class="fa fa-cloud" aria-hidden="true" style="color:white; font-size: 40px;"></i>
-                        <div class="techList">
-                            <p style="color: #f04e3c;">DEPLOYMENT</p>
-                            <p>Netlify</p>
-                            <p>Heroku</p>
-                            <p>Git</p>
-                            <p>AWS</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
     
 
 
@@ -345,7 +353,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title">Get in Touch</h2>
+                        <h2 class="contact-title">Send me a message</h2>
                     </div>
                     <div class="col-lg-8">
                         <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
@@ -381,12 +389,28 @@
                     </div>
                 </div>
             </div>
+            
+                       
+                    <div class="footer-social f-right" style="align-items:center; position: relative; font-size:40px">
+                        <a href="#"><i class="fab fa-linkedin" ></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                
+            <div style=" color: white; margin: 10px auto; text-align: center; padding-bottom: 15px; padding-top: 50px">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Developed by <a href="https://virtech.com.ng" target="_blank" style="color:#ffcd00">Shuaib Ibikunle</a></h4>
+                 </div>
         </section>
         <!-- ================ contact section end ================= -->
-
 </main>
 <footer>
-    <!--? Footer Start
+    <!--? Footer Start <div data-aos="fade-left"></div>
+        <div data-aos="zoom-out-up"></div>
+        <div data-aos="zoom-out-down"></div>
+        <div data-aos="zoom-out-right"></div>
+        <div data-aos="zoom-out-left"></div>
+        <div data-aos="fade-up-right"></div>
+        <div data-aos="fade-up-left"></div>
+
     <div class="footer-area footer-bg">
         <div class="container">
             <div class="footer-top footer-padding">
@@ -507,12 +531,33 @@
 .brand-area .single-brand {
     border: 2px solid white
 }
+.brand-area  {
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
 
+.home-blog-area {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.section-tittle h2 {
+    font-size: 30px;
+    text-transform: none;
+    color: #f04e3c;
+}
 </style>
 <!-- Scroll Up -->
 <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    	offset:200,
+    	duration: 600
+    });
+  </script>
 
     <!-- JS here -->
 
