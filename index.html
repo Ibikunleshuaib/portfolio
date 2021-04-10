@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Shuaib's Portfolio Website </title>
-    <meta name="description" content="">
+    <meta name="description" content="I'm a web developer with 2 years of experience. I'm front end focused but with fullstack experience.  I build websites and web applications using modern web development technologies. As a tenacious self-taught programmer, I use continuous integration to produce results quickly and continuously improve products.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f04e3c">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
@@ -16,12 +17,17 @@
 	<link rel="stylesheet" href="assets/css/flaticon.css">
 	<link rel="stylesheet" href="assets/css/animate.min.css">
 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/themify-icons.css">
 	<link rel="stylesheet" href="assets/css/slick.css">
 	<link rel="stylesheet" href="assets/css/nice-select.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
 </head>
+
 
 <body>
 <!--? Preloader Start -->
@@ -30,7 +36,7 @@
         <div class="preloader-inner position-relative">
             <div class="preloader-circle"></div>
             <div class="preloader-img pere-text">
-                <img src="assets/img/logo/lloder.jpg" alt="">
+                <img src="assets/img/logo/logo.png" alt="">
             </div>
         </div>
     </div>
@@ -45,7 +51,7 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/llogo.png" alt=""></a>
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">
@@ -56,7 +62,7 @@
                                         <ul id="navigation">
                                             <li><a href="#">Home</a></li>
                                             
-                                            <li><a href="#">Contact</a></li>
+                                            <li><a href="#contactSection" id="contact1">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -84,10 +90,10 @@
                         <div class="col-xl-7 col-lg-7 col-md-8">
                             <div class="hero__caption">
                                 <span data-animation="fadeInUp" data-delay=".4s" style="color: white">I'm Shuaib</span>
-                                <h1 data-animation="fadeInUp" data-delay=".6s" >I write code that scales</h1>
+                                <h1 data-animation="fadeInUp" data-delay=".6s" >Frontend Developer </h1>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
-                                    <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Contact</a>
+                                    <a href="https://docs.google.com/document/d/1b5HY_duBf0i7HqLLHOouroK4kMRquLxDLLvRgYgbE0A/edit?usp=sharing" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">View Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -105,10 +111,10 @@
                         <div class="col-xl-7 col-lg-7 col-md-8">
                             <div class="hero__caption">
                                 <span data-animation="fadeInUp" data-delay=".4s">I'm Shuaib</span>
-                                <h1 data-animation="fadeInUp" data-delay=".6s">I write code that scales</h1>
+                                <h1 data-animation="fadeInUp" data-delay=".6s">Frontend Developer</h1>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
-                                    <a href="industries.html" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">Contact</a>
+                                    <a href="https://docs.google.com/document/d/1b5HY_duBf0i7HqLLHOouroK4kMRquLxDLLvRgYgbE0A/edit?usp=sharing" class="btn hero-btn"  data-animation="fadeInLeft" data-delay=".8s">View Resume</a>
                                 </div>
                             </div>
                         </div>
@@ -122,83 +128,114 @@
         </div>
     </div>
     <!-- slider Area End-->
-
+    
 
     
-    <!--? About Area start 
-    <section class="about-area about1 section-padding30">
+    
+    <section class="about-area about1 section-padding30" style="padding-top:20px; padding-bottom: 20px">
+        <div class="container" style="text-align: center;" data-aos="fade-left">
+            <h3 style="color: #f04e3c;">About Me</h3>
+            <p style="color:white">I'm a web developer with 2 years of experience. I'm front end focused but with fullstack experience.  I build websites and web applications using modern web development technologies. As a tenacious self-taught programmer, I use continuous integration to produce results quickly and continuously improve products.</p>
+        </div>    
+    </section>
+    <!-- Services Area End -->
+
+
+     <!--? Brand Area Start -->
+     <section class="brand-area pb-bottom section-padding30">
         <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-xl-5 col-lg-3">
-                    <div class="about-caption2 mb-50">
-                        <h3>HOW WE MAKE USER EXPERIENCES</h3>
-                        <div class="send-cv">
-                            <a href="#">hire@colorlib.com</a>
-                        </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-up">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-laptop" aria-hidden="true" style="color:white; font-size: 40px; align-content: center"></i>
+                        <p style="color: #f04e3c;">FRONT END</p>
+                        <p>HTML5</p>
+                        <p>CSS3 | SASS</p>
+                        <p>Bootstrap | Material UI</p>
+                        <p>JavaScript</p>
+                        <p>React | Redux</p>
+                        <p>Shopify Liquid</p>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-3">
-                    <div class="about-caption mb-50">
-                        <h3>You can’t use up creativity. The more you use, the
-                            more you have in your signifant mind.</h3>
-                        <p class="pera1"><span>SALVADOR DALI</span> Digital Artisit</p>
-                        <div class="experience">
-                            <div class="year">
-                                <span>05</span>
-                            </div>
-                            <div class="year-details"><p>YEARS OF<br> DIGITAL EXPERIENCE</p></div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-down">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-share-alt" aria-hidden="true" style="color:white; font-size: 40px;"></i>
+                        <p style="color: #f04e3c;">SERVER</p>
+                        <p>NodeJS</p>
+                        <p>Express</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-up">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-database" aria-hidden="true" style="color:white; font-size: 40px; align-content: center"></i>
+                            <p style="color: #f04e3c;">DATABASE</p>
+                            <p>mySQL</p>
+                            <p>MongoDB</p>
+                            <p>Firebase</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-down">
+                    <div class="single-brand text-center mb-30">
+                        <i class="fa fa-cloud" aria-hidden="true" style="color:white; font-size: 40px;"></i>
+                        <div class="techList">
+                            <p style="color: #f04e3c;">DEPLOYMENT</p>
+                            <p>Netlify</p>
+                            <p>Heroku</p>
+                            <p>Git</p>
+                            <p>AWS</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    -->
-       
+        
     </section>
-    <!-- Services Area End -->
+    
     <!--? Blog Ara Start -->
-    <section class="home-blog-area section-padding30">
+    <section class="home-blog-area section-padding30" id="projects">
         <div class="container">
             <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-30">
-                        <h2>Portfolio</h2>
-                        <p>Coporate and Business Websites</p>
+                    <div class="section-tittle text-center mb-30" data-aos="fade-left">
+                        <h2>Project Portfolio</h2>
+                        <p>Corporate and Business Websites</p>
                     </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" >
-                    <div class="single-team mb-30"> 
+                    <div class="single-team mb-30" data-aos="fade-up"> 
                         <div class="team-img">
-                            <a href="www.virtech.com.ng">
+                            <a href="https://www.virtech.com.ng" target="_blank">
                             <img src="assets/img/gallery/p1.png" alt="Portfolio1">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="www.virtech.com.ng">www.virtech.com.ng</a></h3>
+                            <h3><a href="https://www.virtech.com.ng" target="_blank">www.virtech.com.ng</a></h3>
+                            <p>A stunning website I developed for my freelancing business. Virtech represents my brand.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
-                            <a href="www.analyse.ng">
+                            <a href="https://www.analyse.ng" target="_blank">
                             <img src="assets/img/gallery/p2.png" alt="Portfolio2">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="www.analyse.ng">www.analyse.ng</a></h3>
+                            <h3><a href="https://www.analyse.ng" target="_blank">www.analyse.ng</a></h3>
+                            <p>A beautiful website I developed for analyse.ng, an online data analytics service provider.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up"> 
                         <div class="team-img">
-                            <a href="www.tristartpaint.com">
+                            <a href="https://www.tristarpaint.com" target="_blank">
                             <img src="assets/img/gallery/p3.png" alt="Portfolio3">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="www.tristartpaint.com">www.tristarpaint.com</a></h3>
+                            <h3><a href="https://www.tristarpaint.com" target="_blank">www.tristarpaint.com</a></h3>
+                            <p>A colourful business website I developed for TriStar Paints and Allied Products Limited. </p>
                         </div>
                     </div>
                 </div>
@@ -215,38 +252,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
-                            <a href="www.tccnaija.com">
+                            <a href="https://www.tccnaija.netlify.app" target="_blank">
                                  <img src="assets/img/gallery/p4.png" alt="Portfolio4">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="www.tccnaija.com">www.tccnaija.com</a></h3>
+                            <h3><a href="https://www.tccnaija.netlify.app" target="_blank">TCCNaija</a></h3>
+                            <p>A corporate website I developed for TCCNaija, an online corporate firm.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
-                            <a href="www.autosolution.ng">
+                            <a href="https://www.autosolution.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p5.png" alt="Portfolio5">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="www.autosolution.ng">www.autosolution.ng</a></h3>
+                            <h3><a href="https://www.autosolution.netlify.app" target="_blank">Auto Solution Inc</a></h3>
+                            <p>A business website I developed for Auto Solution, a car dealer company based in Abuja.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
-                            <a href="ibikunleshuaib.github.io/lanish/index.html">
+                            <a href="https://ibikunleshuaib.github.io/lanish/index.html" target="_blank">
                                 <img src="assets/img/gallery/p6.png" alt="Portfolio6">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="ibikunleshuaib.github.io/lanish/index.html">Lanish Cakes (W.I.P)</a></h3>
+                            <h3><a href="https://ibikunleshuaib.github.io/lanish/index.html" target="_blank">Lanish Cakes (W.I.P)</a></h3>
+                            <p>A business website I'm working on for Lanish Cakes. </p>
                         </div>
                     </div>
                 </div>
@@ -259,63 +299,66 @@
     <section class="home-blog-area section-padding30" style="padding-top:5px;">
         <div class="container">
             <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-30">
-                        <h2>Portfolio</h2>
-                        <p>Web Applications</p>
+                    <div class="section-tittle text-center mb-30" data-aos="fade-left">
+                        <h2>Web Applications</h2>
                     </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" >
-                    <div class="single-team mb-30"> 
+                    <div class="single-team mb-30" data-aos="fade-up"> 
                         <div class="team-img">
-                            <a href="chatappbyshuaib.netlify.app">
+                            <a href="https://chatappbyshuaib.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p7.png" alt="Portfolio7">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="chatappbyshuaib.netlify.com">Real Time Chat Application</a></h3>
+                            <h3><a href="https://chatappbyshuaib.netlify.com" target="_blank">Real Time Chat Application</a></h3>
+                            <p>Technologies used: React, Node and Socket.io</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
-                            <a href="text-reader-by-shuaib.netlify.app">
+                            <a href="https://text-reader-by-shuaib.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p8.png" alt="Portfolio8">
                             </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="text-reader-by-shuaib.netlify.app">Speech Text Reader</a></h3>
+                            <h3><a href="https://text-reader-by-shuaib.netlify.app" target="_blank">Speech Text Reader</a></h3>
+                            <p>Technologies used: Vanilla JavaScript and Web Speech API</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
+                    <div class="single-team mb-30" data-aos="fade-up">
                         <div class="team-img">
-                            <a href="relaxer-app-by-shuaib.netlify.app">
+                            <a href="https://photofilt-by-shuaib.netlify.app" target="_blank">
                                 <img src="assets/img/gallery/p9.png" alt="Portfolio9">
                              </a>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="relaxer-app-by-shuaib.netlify.app">Breathing Relaxer</a></h3>
+                            <h3><a href="https://photofilt-by-shuaib.netlify.app" target="_blank">PhotoFilt: A Photo Filter Application</a></h3>
+                            <p>Technologies used: Vanilla JavaScript and CamanJS API</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     
 
 
     
     <!-- ================ contact section start ================= -->
-        <section class="contact-section" style="background: #0e0e0e">
+        <section class="contact-section" style="background: #0e0e0e" id="contactSection">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title">Get in Touch</h2>
+                        <h2 class="contact-title">Send me a message</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" method="post" action="POST" data-netlify="true" id="contactForm" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group">
@@ -345,15 +388,37 @@
                                 <h3 style="color:white">ibikunleshuaib@gmail.com</h3>
                             </div>
                         </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-mobile"></i></span>
+                            <div class="media-body">
+                                <h3 style="color:white">+234 (0) 810 867 7721</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
+                       
+                    <div class="footer-social f-right" style="align-items:center; position: relative; font-size:40px">
+                        <a href="https://www.linkedin.com/in/ibikunle-shuaib-asq-cssgb-9bb693134/"><i class="fab fa-linkedin" ></i></a>
+                        <a href="https://github.com/Ibikunleshuaib"><i class="fab fa-github"></i></a>
+                    </div>
+                
+            <div style=" color: white; margin: 10px auto; text-align: center; padding-bottom: 15px; padding-top: 50px">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. Developed by <a href="#" target="_blank" style="color: #f04e3c;">Shuaib Ibikunle</a></h4>
+                 </div>
         </section>
         <!-- ================ contact section end ================= -->
-
 </main>
 <footer>
-    <!--? Footer Start
+    <!--? Footer Start <div data-aos="fade-left"></div>
+        <div data-aos="zoom-out-up"></div>
+        <div data-aos="zoom-out-down"></div>
+        <div data-aos="zoom-out-right"></div>
+        <div data-aos="zoom-out-left"></div>
+        <div data-aos="fade-up-right"></div>
+        <div data-aos="fade-up-left"></div>
+
     <div class="footer-area footer-bg">
         <div class="container">
             <div class="footer-top footer-padding">
@@ -446,6 +511,10 @@
 </footer>
 -->
 <style>
+
+html, body {
+    overflow-x: hidden;
+}
    
     .slider-area .hero-man img{
     display: block;
@@ -459,12 +528,51 @@
     color:white;
 }
 
+.brand-area .single-brand p{
+    
+    font-weight:0px;
+    font-size: 13px;
+    text-transform: none;
+    color:white;
+}
 
+.home-blog-area .single-team .team-caption p {
+    color: white;
+}
+
+.brand-area .single-brand {
+    border: 2px solid white
+}
+.brand-area  {
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+
+.home-blog-area {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.section-tittle h2 {
+    font-size: 30px;
+    text-transform: none;
+    color: #f04e3c;
+}
+.form-contact label {
+    color: white;
+}
 </style>
 <!-- Scroll Up -->
 <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    	offset:200,
+    	duration: 600
+    });
+  </script>
 
     <!-- JS here -->
 
